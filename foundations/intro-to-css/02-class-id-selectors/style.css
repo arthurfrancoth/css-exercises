@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+
+.fs-lg {font-size:24px;}
+
+.fw-bold {font-weight: bold;}
+
+.odd {
+    background-color: pink;
+    font-family: Vernada, 'DejaVu Sans', sans-serif;
+}
+
+#number-two {
+    color:blue;
+    font-size:36px;
+}
+
+#number-four {
+    background-color:lightgreen;
+    font-weight: bold;
+}
