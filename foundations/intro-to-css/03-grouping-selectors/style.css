@@ -5,3 +5,6 @@
     font-family: Helvetica, 'Times New Roman', sans-serif;
 }
 
+.bg-yellow { background-color: yellow; }
+
+.bg-black {background-color:black; color: white;}
