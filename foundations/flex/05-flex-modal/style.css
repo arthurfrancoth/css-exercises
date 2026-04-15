@@ -70,14 +70,22 @@ button.cancel {
 
 /* Solution */
 
-.modal-body {
+.modal {
+  padding:32px;
+}
 
+.modal-body {
+  display: flex;
+  flex: 1 2 auto;
+  justify-content: center;
 }
 
 .modal-header {
-
+  display: flex;
+  flex: 1 2 auto;
+  justify-content: center;
 }
 
 .modal-container {
-  
+
 }
