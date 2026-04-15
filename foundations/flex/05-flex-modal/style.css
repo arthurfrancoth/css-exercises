@@ -82,8 +82,13 @@ button.cancel {
 
 .modal-header {
   display: flex;
-  flex: 1 2 auto;
+  flex: 1 1 auto;
   justify-content: center;
+}
+
+.modal-title {
+  display: flex;
+  justify-content:space-between;
 }
 
 .modal-container {
