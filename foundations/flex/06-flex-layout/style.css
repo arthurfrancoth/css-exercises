@@ -27,6 +27,19 @@ input {
 
 /* Solution / Styles */
 
+.content {
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color:#595959;
+}
+
 .header {
 
 }
@@ -35,12 +48,10 @@ ul.right-links, ul.left-links {
 
 }
 
-.header ul li {}
-
 .header ul li a {}
 
 .footer {
-  
+  background-color: #eeeeee;
 }
 
 
