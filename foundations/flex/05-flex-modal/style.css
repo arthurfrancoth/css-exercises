@@ -71,13 +71,14 @@ button.cancel {
 /* Solution */
 
 .modal {
-  padding:32px;
+  padding:24px;
 }
 
 .modal-body {
   display: flex;
   flex: 1 2 auto;
   justify-content: center;
+  gap: 16px;
 }
 
 .modal-header {
@@ -89,8 +90,13 @@ button.cancel {
 .modal-title {
   display: flex;
   justify-content:space-between;
+  margin-bottom:14px;
 }
+  .modal-title .header {
+    font-weight: bold;
+    font-size: 18px;
+  }
 
-.modal-container {
-
+.modal-container .text {
+  margin-bottom: 14px;
 }
