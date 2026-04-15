@@ -38,6 +38,7 @@ ul {
 
 ul li {
   display: inline;
+  margin: 12px;
 }
 
 a {
@@ -53,12 +54,10 @@ a {
 }
 
 .footer {
-  position: fixed;
-  width:100%;
-  bottom:0px;
+  display: flex;
+  justify-content:space-between;
   padding:16px;
   background-color: #eeeeee;
-  display: flex;
 }
 
 ul.right-links {
