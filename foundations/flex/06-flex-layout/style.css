@@ -31,6 +31,11 @@ input {
   text-align: center;
 }
 
+ul {
+  margin:0;
+  padding:0;
+}
+
 ul li {
   display: inline;
 }
@@ -41,17 +46,29 @@ a {
 }
 
 .header {
-
+  display: flex;
+  justify-content:space-between;
+  gap:12px;
+  padding: 16px;
 }
-
-ul.right-links, ul.left-links {
-
-}
-
-.header ul li a {}
 
 .footer {
+  position: fixed;
+  width:100%;
+  bottom:0px;
+  padding:16px;
   background-color: #eeeeee;
+  display: flex;
 }
+
+ul.right-links {
+  align-items: end;
+}
+
+ul.left-links {
+  align-items: start;
+}
+
+
 
 
