@@ -51,20 +51,25 @@ ul {
 .header {
   display: flex;
   padding: 8px;
-  align-items: center;
+  justify-content:space-between;
 }
 
 ul.links {
   display: flex;
-  
-  gap: 8px;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+div.right {
+  display: flex;
+  justify-content: end;
+}
+
+div.left {
+  display: flex;
+  justify-content: start;
 }
 
 button.notifications {
-  margin:8px;
-
-}
-
-div.profile-image {
-
+  margin-right:8px;
 }
