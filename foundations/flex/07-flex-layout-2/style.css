@@ -36,6 +36,15 @@ body {
   justify-content:space-between;
 }
 
+.header {
+  display: flex;
+  font-size:32px;
+  font-weight: 900;  
+  justify-content: start;
+  align-items: center;
+  padding-left: 16px;
+}
+
 .main-container {
   display: flex;
   flex: 1;
@@ -60,6 +69,12 @@ body {
   padding: 16px;
 }
 
-ul {list-style-type: none;}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {list-style-type: none;margin:0; padding:0;}
 ul li {margin:12px auto}
 ul li a {text-decoration: none; color:white; font-size: 24px;}
