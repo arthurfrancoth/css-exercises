@@ -44,5 +44,20 @@ body {
 
 .content {
   display: flex;
-  padding:32px;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 48px;
 }
+  .card {
+    align-items: start;
+    padding: 24px;
+  }
+
+.sidebar {
+  min-width: 300px;
+  padding: 16px;
+}
+
+ul {list-style-type: none;}
+ul li {margin:12px auto}
+ul li a {text-decoration: none; color:white; font-size: 24px;}
