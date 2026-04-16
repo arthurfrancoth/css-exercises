@@ -35,3 +35,14 @@ body {
   flex-direction: column;
   justify-content:space-between;
 }
+
+.main-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  padding:32px;
+}
