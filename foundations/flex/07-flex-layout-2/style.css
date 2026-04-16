@@ -45,11 +45,13 @@ body {
 .content {
   display: flex;
   flex-wrap: wrap;
+  flex: 1;
   padding: 32px;
   gap: 48px;
 }
   .card {
-    align-items: start;
+    width:250px;
+    height: auto;
     padding: 24px;
   }
 
